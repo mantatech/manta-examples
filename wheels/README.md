@@ -17,6 +17,7 @@ pip install manta-node
 ## Coming Soon: Offline Installation
 
 Pre-built wheel files will be provided here for:
+
 - `manta-sdk` - Client SDK for interacting with the Manta platform
 - `manta-node` - Node agent for edge devices
 - Specific version releases for reproducibility
@@ -40,9 +41,10 @@ pip install manta_node-<version>-py3-none-any.whl
 ## Get Latest Versions
 
 Until wheel files are available here, get the latest from:
+
 - **PyPI**: [pypi.org/project/manta-sdk](https://pypi.org/project/manta-sdk/)
 - **GitHub Releases**: [github.com/mantatech](https://github.com/mantatech)
 
 ## Questions?
 
-Contact support@manta-tech.io or visit [docs.manta-tech.io](https://docs.manta-tech.io/)
+Contact <support@manta-tech.io> or visit [docs.manta-tech.io](https://docs.manta-tech.io/)
