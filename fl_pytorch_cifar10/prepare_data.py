@@ -202,7 +202,7 @@ def generate_non_IID_label_parties(dataset, nb_per_node, labels_per_client=1, rn
         )
 
         # Proportionally allocate test data based on actual training samples for this node
-        num_node_train_actual = len(node_train_indices)
+        len(node_train_indices)
         node_test_indices_list = []
         if num_train > 0:  # Avoid division by zero
             for j, l in enumerate(node_labels):
