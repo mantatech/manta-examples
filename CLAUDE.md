@@ -7,7 +7,7 @@ Ready-to-run federated learning examples for the Manta platform. This is a publi
 - `README.md` - Getting started guide, quick start workflow, system requirements
 - `fl_pytorch_mnist/README.md` - MNIST example: step-by-step, module structure, hyperparameters
 - `fl_pytorch_cifar10/README.md` - CIFAR10 example: CNN architecture, advanced usage
-- **Platform docs**: https://mantatech.github.io/manta-docs/
+- **Platform docs**: https://docs.manta-tech.io/
 
 ## Quick Reference
 
