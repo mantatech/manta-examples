@@ -18,4 +18,4 @@ Ready-to-run federated learning examples for the Manta platform. This is a publi
 - **Data prep**: `python prepare_data.py -n <nodes>` (supports IID and non-IID partitioning)
 - **Wheels**: `wheels/` directory for offline SDK/node installation
 - **Dashboard**: https://dashboard.manta-tech.io
-- **Rule**: Notebooks must be self-contained and reproducible without internal platform access
+- **Notebooks**: Must be self-contained and reproducible without internal platform access
