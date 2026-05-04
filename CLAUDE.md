@@ -1,21 +1,18 @@
-# Manta Examples
+# Manta Examples — Archive-prep mode
 
-Ready-to-run federated learning examples for the Manta platform. This is a public repository for end users learning to develop and deploy distributed ML workloads.
+> **Status:** This repository is in archive-prep mode per [ADR-0014](https://github.com/mantatech/manta-deploy/blob/main/docs/adr/0014-examples-organization.md). The FL examples have moved to `mantatech/manta-sdk/examples/`. No new content lands here. The repository will be archived on GitHub once the migrated examples ship on a stable manta-sdk PyPI release. See `README.md` for the redirect.
 
 ## Documentation
 
-- `README.md` - Getting started guide, quick start workflow, system requirements
-- `fl_pytorch_mnist/README.md` - MNIST example: step-by-step, module structure, hyperparameters
-- `fl_pytorch_cifar10/README.md` - CIFAR10 example: CNN architecture, advanced usage
-- **Platform docs**: https://docs.manta-tech.io/
+- `README.md` - Redirect notice + new install command (`pip install manta-sdk[examples]`)
+- `fl_pytorch_mnist/README.md` - Historical MNIST docs (canonical copy: `manta-sdk/examples/fl_pytorch_mnist/`)
+- `fl_pytorch_cifar10/README.md` - Historical CIFAR10 docs (canonical copy: `manta-sdk/examples/fl_pytorch_cifar10/`)
+- **Canonical examples**: <https://github.com/mantatech/manta-sdk/tree/main/examples>
+- **Platform docs**: <https://docs.manta-tech.io/>
 
 ## Quick Reference
 
-- **Stack**: Python 3.9+, PyTorch, Jupyter, manta-sdk, manta-node
-- **Examples**: `fl_pytorch_mnist/` (beginner), `fl_pytorch_cifar10/` (intermediate)
-- **Workflow**: prepare_data.py → configure nodes → start nodes → run swarm.ipynb
-- **Modules pattern**: Each example has `modules/` with worker, aggregator, scheduler
-- **Data prep**: `python prepare_data.py -n <nodes>` (supports IID and non-IID partitioning)
-- **Wheels**: `wheels/` directory for offline SDK/node installation
-- **Dashboard**: https://dashboard.manta-tech.io
-- **Notebooks**: Must be self-contained and reproducible without internal platform access
+- **Status**: Archive-prep mode — examples migrated to `manta-sdk` per ADR-0014
+- **New install**: `pip install "manta-sdk[examples]"` (replaces the prior `manta-node` + `wheels/` workflow)
+- **Historical content kept**: example folders remain in place for inbound link continuity until GitHub archival
+- **Dashboard**: <https://dashboard.manta-tech.io>
