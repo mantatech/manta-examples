@@ -4,7 +4,7 @@
 
 ## Documentation
 
-- `README.md` - Redirect notice + new install command (`pip install manta-sdk[examples]`)
+- `README.md` - Redirect notice + new install command (`pip install manta[examples]`)
 - `fl_pytorch_mnist/README.md` - Historical MNIST docs (canonical copy: `manta-sdk/examples/fl_pytorch_mnist/`)
 - `fl_pytorch_cifar10/README.md` - Historical CIFAR10 docs (canonical copy: `manta-sdk/examples/fl_pytorch_cifar10/`)
 - **Canonical examples**: <https://github.com/mantatech/manta-sdk/tree/main/examples>
@@ -13,6 +13,6 @@
 ## Quick Reference
 
 - **Status**: Archive-prep mode — examples migrated to `manta-sdk` per ADR-0014
-- **New install**: `pip install "manta-sdk[examples]"` (replaces the prior `manta-node` + `wheels/` workflow)
+- **New install**: `pip install "manta[examples]"` (replaces the prior `manta-node` + `wheels/` workflow)
 - **Historical content kept**: example folders remain in place for inbound link continuity until GitHub archival
 - **Dashboard**: <https://dashboard.manta-tech.io>

@@ -16,7 +16,7 @@
 The example dependencies are now an SDK extra:
 
 ```bash
-pip install "manta-sdk[examples]"
+pip install "manta[examples]"
 ```
 
 This pulls `torch`, `torchvision`, and `jupyter` alongside the SDK. Then run
